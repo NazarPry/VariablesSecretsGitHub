@@ -8,11 +8,11 @@ env:
   MONGODB_DB_NAME: gha-demo
 jobs:
   test:
-  env:
-    MONGODB_CLUSTER_ADDRESS: cluster0.qv7vg.mongodb.net
-    MONGODB_USERNAME: nazja184
-    MONGODB_PASSWORD: VUiGKIbH0VgPngWz
-    PORT: 8081
+    env:
+      MONGODB_CLUSTER_ADDRESS: cluster0.qv7vg.mongodb.net
+      MONGODB_USERNAME: nazja184
+      MONGODB_PASSWORD: VUiGKIbH0VgPngWz
+      PORT: 8081
     runs-on: ubuntu-22.04
     steps:
       - name: Get Code
